@@ -1,0 +1,12 @@
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.env
+.DS_Store
+*.pyc
+results/metrics/*.csv
+results/figures/*.png
+models/saved_models/
+Raw Dataset/
+
