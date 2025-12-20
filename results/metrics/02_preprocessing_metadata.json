@@ -1,0 +1,45 @@
+{
+  "original_shape": {
+    "train": [
+      80000,
+      6
+    ],
+    "test": [
+      20000,
+      6
+    ]
+  },
+  "processed_shape": {
+    "train": [
+      80000,
+      375
+    ],
+    "test": [
+      20000,
+      375
+    ]
+  },
+  "numeric_features": [
+    "TransactionID",
+    "Amount",
+    "MerchantID"
+  ],
+  "categorical_features": [
+    "TransactionDate",
+    "TransactionType",
+    "Location"
+  ],
+  "total_features_after_encoding": 375,
+  "test_split_size": 0.2,
+  "random_state": 42,
+  "class_distribution": {
+    "train": {
+      "non_fraud": 79200,
+      "fraud": 800
+    },
+    "test": {
+      "non_fraud": 19800,
+      "fraud": 200
+    }
+  }
+}

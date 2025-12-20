@@ -1,0 +1,58 @@
+{
+  "approach": "Imbalanced data with class weights (NOT SMOTE)",
+  "training_samples": 64000,
+  "validation_samples": 16000,
+  "test_samples": 20000,
+  "class_weights": {
+    "0": 0.5050505050505051,
+    "1": 50.0
+  },
+  "total_epochs": 21,
+  "best_epoch": 1,
+  "best_val_auc": 0.5122015476226807,
+  "optimal_threshold": 0.48595431447029114,
+  "test_metrics": {
+    "roc_auc": 0.4994896464646465,
+    "precision": 0.010899495181275814,
+    "recall": 0.475,
+    "f1_score": 0.021310004486316734,
+    "accuracy": 0.5637
+  },
+  "classification_report": {
+    "0": {
+      "precision": 0.9906947890818859,
+      "recall": 0.5645959595959597,
+      "f1-score": 0.7192767983528503,
+      "support": 19800.0
+    },
+    "1": {
+      "precision": 0.010899495181275814,
+      "recall": 0.475,
+      "f1-score": 0.021310004486316734,
+      "support": 200.0
+    },
+    "accuracy": 0.5637,
+    "macro avg": {
+      "precision": 0.5007971421315809,
+      "recall": 0.5197979797979798,
+      "f1-score": 0.3702934014195835,
+      "support": 20000.0
+    },
+    "weighted avg": {
+      "precision": 0.9808968361428799,
+      "recall": 0.5637000000000001,
+      "f1-score": 0.7122971304141849,
+      "support": 20000.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      11179,
+      8621
+    ],
+    [
+      105,
+      95
+    ]
+  ]
+}

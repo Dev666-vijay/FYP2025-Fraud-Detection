@@ -1,0 +1,24 @@
+{
+  "shape": {
+    "rows": 100000,
+    "columns": 7
+  },
+  "columns": [
+    "TransactionID",
+    "TransactionDate",
+    "Amount",
+    "MerchantID",
+    "TransactionType",
+    "Location",
+    "IsFraud"
+  ],
+  "dtypes": {
+    "TransactionID": "int64",
+    "TransactionDate": "object",
+    "Amount": "float64",
+    "MerchantID": "int64",
+    "TransactionType": "object",
+    "Location": "object",
+    "IsFraud": "int64"
+  }
+}
